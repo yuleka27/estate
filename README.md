@@ -13,9 +13,9 @@
 ### Types of real estate / Виды недвижимости :
 <ul>
 <li>Сity ​​real estate / Городская</li>
-<li>Коммерчкская</li>
-<li>Загородная</li>
-<li>Зарубежная</li>
+<li>Commercial real estate / Коммерчкская</li>
+<li>Country estate /  Загородная</li>
+<li>Overseas real estate / Зарубежная</li>
   </ul>
 
 
