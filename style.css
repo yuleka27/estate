@@ -1,0 +1,151 @@
+.header {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+
+h1, h3 {
+font-family: 'Dancing Script', cursive;
+font-size: 60px;
+color: #fff;
+}
+
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Dancing Script', cursive;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+}
+
+body {
+    background-color: #040d48;
+}
+
+h4 {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color: #fff;
+    color: #000000;
+    font-size: 0;
+}
+
+.par {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    background-color: #fff;
+    color: #000000;
+    font-size: 0;
+}
+
+.price {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background-color: #fff;
+    color: #000000;
+    font-size: 0;
+}
+
+.selected {
+    flex: 4;
+}
+
+.selected h4 {
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+
+.selected .price {
+    font-size: 35px;
+    transition: all 1s ease-in;
+}
+
+label {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+.text-input {
+background-color: #040d48;
+color: #fff;
+border: none;
+padding: 12px 20px;
+}
+
+.btn {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    background-color: #fff;
+    flex: 1;
+}
+
+.one {
+background-image: url('1.jpeg');
+}
+
+.two {
+background-image: url('2.jpeg');
+}
+
+.three {
+background-image: url('3.jpeg');
+}
+
+.four {
+background-image: url('4jpeg.jpeg');
+}
+
+@media all and (max-width:800px) {
+    .container {
+        display: flex;
+  }
+
+.selected {
+    flex: 8;
+}
+
+.selected h4 {
+    font-size: 25px;
+    transition: all 1s ease-in;
+}
+
+.selected .par {
+    font-size: 15px;
+    transition: all 1s ease-in;
+}
+
+.selected .price {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+label {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+.btn {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    background-color: #fff;
+    flex: 1;
+}
+h1, h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #fff;
+    }
+}

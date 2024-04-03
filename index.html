@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="header">
+<h1>Elite Real Estate</h1>
+</div>
+
+<div class="container">
+    <div class="item one selected">
+        <h4>Городская</h4>
+        <p class="par">Жилые комплексы в Москве продажа и аренда</p>
+        <p class="price">от 200 тыс. $</p>
+    </div>
+
+    <div class="item two">
+        <h4>Коммерческая</h4>
+        <p class="par">Продажа/арендый бизнес</p>
+        <p class="price">от 500 тыс. $</p>
+    </div>
+
+    <div class="item three">
+        <h4>Загородная</h4>
+        <p class="par">Дома, участки, коттеджные поселки</p>
+        <p class="price">от 2 млн. $</p>
+    </div>
+
+    <div class="item four">
+        <h4>Зарубежная</h4>
+        <p class="par">Недвижимость в Дубае</p>
+        <p class="price">от 250 тыс. $</p>
+    </div>
+
+</div>
+
+<div class="header">
+    <h3>Send us a message!</h3>
+</div>
+
+<form
+  action="https://formspree.io/f/mzbqyeek"
+  method="POST">
+
+  <input type="hidden" name="_language" value="en"/>
+
+
+<div class="header">
+  <label>
+    Your email:
+    <input type="email" class="text-input" name="email" placeholder="Your email..." required="">
+  </label>
+</div>
+
+<div class="header">
+  <label>
+    Your message:
+    <textarea class="text-input" name="message" placeholder="Type your message" required=""></textarea>
+  </label>
+</div>
+
+<br>
+
+
+
+  <div class="header">
+  <button type="submit" class="btn">Send</button>
+</form>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
